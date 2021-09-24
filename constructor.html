@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h2 id="display"></h2>
+        <p class="d2"></p>
+        <script>
+            function avc(fname,lname,address){
+                this.f=fname;
+                this.l=lname;
+                this.a=address;
+            }
+        var details=new avc("Mille","Bobby","LA");
+            document.getElementById("display").innerHTML=details.f+" "+details.l+" "+details.a;
+        document.getElementsByClass("d2").innerHTML=details.f;
+        </script>
+    </body>
+</html>

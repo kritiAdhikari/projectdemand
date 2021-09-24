@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<HTML>
+<head></head>
+<body>
+<form id="frm" method="" action"">
+Username<input type="text" name=""/><br>
+
+<input type="button" onclick="fun()" value="Login"/>
+<script>
+function fun()
+{
+
+	if (document.getElementById('frm').elements[0].value=="") 
+	{
+		alert("Username cannot be empty!");
+	}
+	if (document.getElementById('frm').elements[0].value=="admin") 
+	{
+		alert("Login sucessful!");
+	}
+	if ((document.getElementById('frm').elements[0].value)!="admin") 
+	{
+		alert("Login unsucessful!Incorrect Value!");
+	}
+}
+
+
+
+
+</script>
+</body>
+
+</HTML>
